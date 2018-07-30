@@ -1,0 +1,19 @@
+---
+title: Le Wagon - Team
+---
+<div id="team">
+
+<h1 class = text-center  > Our awesome team </h1>
+
+
+
+<ul class="list-inline text-center">
+  <% ["jan", "clara"].each do |name| %>
+    <li>
+      <%= image_tag "#{name}.jpg", class: "img-circle" %>
+      <h2><%= name.capitalize %></h2>
+    </li>
+  <% end %>
+</ul>
+
+</div>
