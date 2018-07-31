@@ -1,0 +1,25 @@
+<div class = "show">
+  <div class = "row">
+    <div class = "col-xs-12 col-sm-6">
+    <div id= "information">
+    <%flat = data.flats[owner]%>
+
+    <%= image_tag "#{flat.owner}.jpg", class: "img-circle" %>
+    <p><%= flat.name %></p>
+    <h1><%= flat.description %></h1>
+        <div class = "info">
+        <p><%= flat.city_name %></p>
+        <p>Wifi: <%= flat.wifi %></p>
+        <p>Rating: <%= flat.rating %></p>
+        <p>Number of rooms: <%= flat.rooms %></p>
+        <p>Number of guests: <%= flat.guests %></p>
+        </div>
+    </div>
+  </div>
+
+
+  <div class = "col-xs-12 col-sm-6">
+    <img class="picture" src="https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>">
+  </div>
+  </div>
+</div>

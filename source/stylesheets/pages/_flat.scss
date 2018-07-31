@@ -1,0 +1,28 @@
+#information{
+
+  height: 600px;
+  width:350px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  color: $gray;
+  margin: 50px;
+  text-align:center;
+  border-color: $light-gray;
+}
+
+.info{
+  text-align: left;
+  margin-left: 5px;
+}
+
+.show{
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+
+}
+
+.picture{
+  height: 400px;
+  margin: 50px;
+
+}

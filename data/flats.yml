@@ -1,0 +1,35 @@
+clara:
+  owner: "clara"
+  name: "Clara's home"
+  description: "Charming room in Milan"
+  city_name: "Milan, Italy"
+  city_slug: "milan"
+  wifi: false
+  rating: 4
+  smoking: false
+  rooms: 3
+  guests: 4
+
+jan:
+  owner: "jan"
+  name: "Jan's home"
+  description: Small flat in Berlin
+  city_name: "Berlin, Germany"
+  city_slug: "berlin"
+  wifi: true
+  rating: 3
+  smoking: false
+  rooms: 4
+  guests: 8
+
+carl:
+  owner: "carl"
+  name: Carl's home
+  description: Nice flat in Paris
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: true
+  rating: 5
+  smoking: true
+  rooms: 2
+  guests: 4
